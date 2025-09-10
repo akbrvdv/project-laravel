@@ -21,6 +21,12 @@
             text-align: center;
             max-width: 500px;
         }
+        .container img {
+            width: 150px; /* bisa disesuaikan */
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 50%; /* opsional, bikin jadi lingkaran */
+        }
         h1 {
             color: #333;
             margin-bottom: 10px;
@@ -39,16 +45,14 @@
             border-radius: 8px;
             transition: 0.3s;
         }
-        .btn:hover {
-            background: #00c6ff;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Selamat Datang di Website Saya!</h1>
-        <p>Ini adalah landing page sederhana dengan Laravel + CSS.</p>
-        <a href="https://github.com" class="btn">Lihat Repo</a>
+        <!-- Tambahkan gambar di sini -->
+        <img src="poltek.png">
+        <h1>Selamat Datang!</h1>
+        <p>Ini adalah landing page sederhana dengan Laravel.</p>
     </div>
 </body>
 </html>
