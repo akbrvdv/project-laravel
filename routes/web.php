@@ -1,5 +1,7 @@
 <?php
 
-use App\Http\Controllers\LandingController;
+use App\Http\Controllers\ProductController;
+use Illuminate\Support\Facades\Route;
 
-Route::get('/', [LandingController::class, 'index']);
+Route::get('/', [App\Http\Controllers\ProductController::class, 'products']);
+
